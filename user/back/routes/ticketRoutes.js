@@ -8,6 +8,7 @@ import {
 
 const router = express.Router();
 
+
 router.post("/", createTicket);
 router.get("/", getAllTickets);
 

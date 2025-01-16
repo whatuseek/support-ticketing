@@ -1,0 +1,5 @@
+## Replace when in development
+
+ "scripts": { "start": "node --inspect --watch src/userServer.js",}  
+
+ NODE_ENV=development

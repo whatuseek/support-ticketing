@@ -16,6 +16,8 @@ connectDB();
 // Setup middleware
 setupMiddleware(app);
 
+
+
 // Define routes
 app.use("/api/tickets", ticketRoutes);
 

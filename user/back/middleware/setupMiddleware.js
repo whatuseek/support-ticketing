@@ -9,5 +9,8 @@ const setupMiddleware = (app) => {
     app.use(express.urlencoded({ extended: true }));
     app.use(cors());
 };
-
+const app = express();
+app.get( "/", (req, res) => {
+    res.send("API is running...");
+  })
 export default setupMiddleware;

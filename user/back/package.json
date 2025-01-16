@@ -4,7 +4,7 @@
   "main": "userServer.js",
   "type": "module",
   "scripts": {
-    "start": "node --inspect --watch src/userServer.js",
+    "start": "node  src/userServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
