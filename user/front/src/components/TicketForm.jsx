@@ -79,7 +79,7 @@ const TicketForm = () => {
     if (!validateForm()) return;
 
     try {
-      const response = await axios.post("http://localhost:4000/api/tickets", formData);
+      const response = await axios.post("https://support-ticketing-user-front.onrender.com/api/tickets", formData);
 
       if (response.status === 201) {
         setToast({ message: "Ticket created successfully!", type: "success" });
